@@ -30,7 +30,7 @@ public class GetFileName {
         String FilePate="E:\\test";
         File[] list = new File(FilePate).listFiles();
         System.out.println("读取文件的数量"+list.length);
-        //生成文件的路径
+        //生成文件的路径测试使用
         String createFile = "F:\\test2\\file.txt";
         BufferedWriter write = new BufferedWriter(new FileWriter(createFile));
             try {
